@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Композитордың жеке шығармашылық сайты. Шығармаларды тыңдап, байланысуға арналған платформа.">
+  <title>Композитордың Жеке Сайты</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Қош келдіңіз!</h1>
+    <p>Менің музыкалық әлеміме саяхат жасаңыз</p>
+  </header>
+  <nav>
+    <a href="#works">Шығармаларым</a>
+    <a href="#news">Жаңалықтар</a>
+    <a href="#contact">Байланыс</a>
+  </nav>
+  <section id="works">
+    <h2>Шығармаларым</h2>
+    <p>Төменде менің музыкалық шығармаларымды тыңдай аласыз:</p>
+    <audio controls>
+      <source src="song1.mp3" type="audio/mpeg">
+      Сіздің браузеріңіз аудионы қолдамайды.
+    </audio>
+    <audio controls>
+      <source src="song2.mp3" type="audio/mpeg">
+      Сіздің браузеріңіз аудионы қолдамайды.
+    </audio>
+  </section>
+  <section id="news">
+    <h2>Жаңалықтар</h2>
+    <p>Соңғы оқиғалар мен концерттер туралы жаңалықтар осында пайда болады.</p>
+  </section>
+  <section id="contact">
+    <h2>Байланыс</h2>
+    <p>Менімен хабарласыңыз:</p>
+    <form id="contact-form" action="send-message.php" method="post">
+      <input type="text" name="name" placeholder="Атыңыз" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="message" placeholder="Хабарламаңыз" required></textarea>
+      <button type="submit">Жіберу</button>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2025 Сіздің атыңыз. Барлық құқықтар қорғалған.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
