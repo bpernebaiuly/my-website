@@ -1,0 +1,79 @@
+/* Негізгі стильдер */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  /* Тақырып стилі */
+  header {
+    background: #6a5acd;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  
+  /* Мәзір стилі */
+  nav {
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Бөлім стилі */
+  section {
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Байланыс формасы */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  form input, form textarea, form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  form button {
+    background: #6a5acd;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  form button:hover {
+    background: #5941a9;
+  }
+  
+  /* Мультимедиа */
+  audio, video {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  /* Төменгі колонтитул */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  
