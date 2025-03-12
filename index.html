@@ -1,51 +1,85 @@
 <!DOCTYPE html>
-<html lang="kk">
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Композитордың жеке шығармашылық сайты. Шығармаларды тыңдап, байланысуға арналған платформа.">
-  <title>Композитордың Жеке Сайты</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Работа с детьми с ОВЗ</title>
+  <!-- Подключаем стили -->
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
+
+  <!-- Шапка сайта (header) -->
   <header>
-    <h1>Қош келдің!</h1>
-    <p>Менің музыкалық әлеміме саяхат жасаңыз</p>
+    <h1>Работа с детьми с ОВЗ</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Методические рекомендации</a></li>
+        <li><a href="#">Форум</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+    </nav>
   </header>
-  <nav>
-    <a href="#works">Шығармаларым</a>
-    <a href="#news">Жаңалықтар</a>
-    <a href="#contact">Байланыс</a>
-  </nav>
-  <section id="works">
-    <h2>Шығармаларым</h2>
-    <p>Төменде менің музыкалық шығармаларымды тыңдай аласыз:</p>
-    <audio controls>
-      <source src="song1.mp3" type="audio/mpeg">
-      Сіздің браузеріңіз аудионы қолдамайды.
-    </audio>
-    <audio controls>
-      <source src="song2.mp3" type="audio/mpeg">
-      Сіздің браузеріңіз аудионы қолдамайды.
-    </audio>
-  </section>
-  <section id="news">
-    <h2>Жаңалықтар</h2>
-    <p>Соңғы оқиғалар мен концерттер туралы жаңалықтар осында пайда болады.</p>
-  </section>
-  <section id="contact">
-    <h2>Байланыс</h2>
-    <p>Менімен хабарласыңыз:</p>
-    <form id="contact-form" action="send-message.php" method="post">
-      <input type="text" name="name" placeholder="Атыңыз" required>
-      <input type="email" name="email" placeholder="Email" required>
-      <textarea name="message" placeholder="Хабарламаңыз" required></textarea>
-      <button type="submit">Жіберу</button>
-    </form>
-  </section>
+
+  <!-- Основной контент (main) -->
+  <main>
+    <section id="introduction">
+      <h2>О проекте</h2>
+      <p>
+        Добро пожаловать на наш сайт, посвящённый работе с детьми, имеющими ограниченные возможности здоровья (ОВЗ). 
+        Здесь вы найдёте методические материалы, статьи, советы специалистов и многое другое.
+      </p>
+    </section>
+
+    <section id="advantages">
+      <h2>Что вы найдёте на нашем сайте</h2>
+      <ul>
+        <li>Актуальные рекомендации по обучению и воспитанию детей с разными формами ОВЗ.</li>
+        <li>Полезные контакты специалистов (логопедов, психологов, дефектологов).</li>
+        <li>Истории успеха и вдохновляющие примеры инклюзивной практики.</li>
+        <li>Возможность задать вопросы и получить обратную связь от экспертов.</li>
+      </ul>
+    </section>
+
+    <section id="accessibility-tips">
+      <h2>Советы по доступности</h2>
+      <article>
+        <h3>Для пользователей с нарушением зрения</h3>
+        <p>
+          Старайтесь использовать чёткий контраст текста и фона. 
+          Все изображения на сайте имеют альтернативный текст (alt), 
+          чтобы слабовидящие пользователи понимали, что на них изображено.
+        </p>
+      </article>
+      <article>
+        <h3>Для пользователей с нарушением слуха</h3>
+        <p>
+          Для видео-материалов мы будем добавлять субтитры. 
+          Там, где это возможно, используем текстовые инструкции вместо исключительно звуковых сигналов.
+        </p>
+      </article>
+    </section>
+
+    <section id="news-block">
+      <h2>Новости и события</h2>
+      <div class="news-item">
+        <h3>Вебинар по инклюзивному образованию</h3>
+        <p>В пятницу, 10 марта, состоится бесплатный вебинар, посвящённый применению игровых методик в обучении детей с ОВЗ.</p>
+        <a href="#" class="read-more">Подробнее</a>
+      </div>
+      <div class="news-item">
+        <h3>Объявлен конкурс педагогических проектов</h3>
+        <p>Учителя и воспитатели могут поделиться своими наработками по социальной адаптации детей с ОВЗ и получить грант.</p>
+        <a href="#" class="read-more">Подробнее</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Подвал сайта (footer) -->
   <footer>
-    <p>&copy; 2025 Сіздің атыңыз. Барлық құқықтар қорғалған.</p>
+    <p>&copy; 2025 Работа с детьми с ОВЗ. Все права защищены.</p>
   </footer>
-  <script src="script.js"></script>
+
 </body>
 </html>
