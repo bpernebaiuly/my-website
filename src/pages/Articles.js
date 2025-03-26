@@ -2,6 +2,7 @@ import { useContext, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { LanguageContext } from "../context/LanguageContext";
 import articlesData from "../data/articles.json";
+import "../styles/global.css"; // Жалпы стильдерді қосу
 
 function Articles() {
   const { language } = useContext(LanguageContext);
@@ -30,7 +31,7 @@ function Articles() {
   }, [searchTerm, selectedCategory, language, articles]);
 
   return (
-    <div>
+    <div className="page-container">
       <h1>{language === "kk" ? "Мақалалар" : "Статьи"}</h1>
 
       {/* Іздеу жолағы */}
@@ -39,11 +40,11 @@ function Articles() {
         placeholder={language === "kk" ? "Іздеу..." : "Поиск..."}
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
-        style={{ padding: "8px", width: "100%", marginBottom: "10px" }}
+        className="search-input"
       />
 
       {/* Фильтр батырмалары */}
-      <div>
+      <div className="filter-buttons">
         <button onClick={() => setSelectedCategory("all")}>
           {language === "kk" ? "Барлығы" : "Все"}
         </button>
@@ -55,18 +56,23 @@ function Articles() {
         </button>
       </div>
 
-      <ul>
+      {/* Мақалалар тізімі (карточкалар түрінде) */}
+      <section className="cards-container">
         {filteredArticles.length > 0 ? (
           filteredArticles.map(article => (
-            <li key={article.id}>
-              <Link to={`/articles/${article.id}`}>{article.title[language]}</Link>
+            <div className="card" key={article.id}>
+              <img src={`/images/articles/${article.image}`} alt={article.title[language]} />
+              <h3>{article.title[language]}</h3>
               <p>{article.summary[language]}</p>
-            </li>
+              <Link to={`/articles/${article.id}`}>
+                {language === "kk" ? "Оқу" : "Читать"}
+              </Link>
+            </div>
           ))
         ) : (
           <p>{language === "kk" ? "Мақалалар табылмады" : "Статьи не найдены"}</p>
         )}
-      </ul>
+      </section>
     </div>
   );
 }
