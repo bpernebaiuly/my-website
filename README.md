@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/ngoworldcommunity/NGOWorld)](https://github.com/ngoworldcommunity/NGOWorld/releases) ![GitHub repo size](https://img.shields.io/github/repo-size/ngoworldcommunity/NGOWorld)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# What is NgoWorld ?
 
-## Available Scripts
+NgoWorld is a hub to **connect** NGOs, Charities, and the world to **collaborate** and **build** a better tomorrow. Sign up as an organization/user and be a cause for change. Don't forget to drop a star ⭐.
 
-In the project directory, you can run:
+<br/>
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<div  align="center" >
 
-### `npm test`
+<div  align="center" >
+<a href="https://milanhub.vercel.app/"><img alt="C" src="https://img.shields.io/badge/Production%20Release-07C160?style=for-the-badge&logo=vercel&logoColor=white"></a> <a href="https://github.com/sponsors/tamalCodes"><img alt="Sponsor Tamal" src="https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+</div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img alt="NgoWorld Readme Banner" src="./src/assets/pictures/readme/MilanBanner.png" width="700px"/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+</div>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `npm run eject`
+# Tech Stack (Frontend) 💻
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p >
+    <a href="https://react.dev/"><img alt="C" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></a>
+    <a href="https://getbootstrap.com/"><img alt="C" src="https://img.shields.io/badge/Bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"></a>
+    <a href="https://docs.github.com/en"><img alt="C" src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></a>
+    <a href="https://opensource.guide/how-to-contribute/"><img alt="C" src="https://img.shields.io/badge/Open%20Source-%23F05032.svg?style=for-the-badge&logo=open-source-initiative&logoColor=white"></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img alt="C" src="https://img.shields.io/badge/CSS-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"></a>
+    <a href="https://www.canva.com/designschool/tutorials/getting-started/"><img alt="C" src="https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=canva&logoColor=white"></a>
+    <a href="https://help.figma.com/hc/en-us/categories/360002051613-Get-started"><img alt="C" src="https://img.shields.io/badge/Figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white"></a>
+    <a href="https://docs.github.com/en/actions"><img alt="C" src="https://img.shields.io/badge/GitHub%20Actions-%232671E5.svg?style=for-the-badge&logo=github-actions&logoColor=white"></a>
+    <a href="https://docs.github.com/en/actions"><img alt="C" src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white"></a>
+    <a href="https://docs.github.com/en/actions"><img alt="C" src="https://img.shields.io/badge/react%20zustand-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"></a>
+    <a href="https://docs.github.com/en/actions"><img alt="C" src="https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=fff&style=for-the-badge"></a>
+    <a href="https://docs.github.com/en/actions"><img alt="C" src="https://img.shields.io/badge/Passport-34E27A?logo=passport&logoColor=000&style=for-the-badge"></a>
+    <a href="https://docs.github.com/en/actions"><img alt="C" src="https://img.shields.io/badge/.ENV-ECD53F?logo=dotenv&logoColor=000&style=for-the-badge"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+</p>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+</br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Contributing to NgoWorld 🔐
 
-### Code Splitting
+Remember, Good PR makes you a Good contributor !
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+We at NgoWorld work hard to maintain the structure, and [use conventional Pull](https://github.com/ngoworldcommunity/NGOWorld/blob/main/CONTRIBUTING.md#pull-request-title-format-) request titles and commits. Without a proper template for the PR, not following the guidelines and spam might get the pull request closed, or banned.
 
-### Analyzing the Bundle Size
+## 1️. Setting up the project locally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [Forking + Cloning Guide](/docs/CloneSetup.md)
+- [Setting up the Frontend (current repo)](/docs/FrontendSetup.md)
+- [Setting up the Backend](https://github.com/ngoworldcommunity/NGOWorld-Backend/blob/main/docs/BackendSetup.md)
+- [Setting up with docker](/docs/DockerSetup.md)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 2️. Contributing guidelines & more
 
-### Advanced Configuration
+- [Contributing Guidelines](/CONTRIBUTING.md) to be followed.
+- [Proper API documentation](https://milan-server.onrender.com/docs/) for developers.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# License 👮
 
-### Deployment
+NgoWorld is Licensed under the <a href="./LICENSE">MIT License</a>. Please go through the License at least once before contributing.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# Support 🙏
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Don't forget to drop a star ⭐.** A heartfelt thank you to those who have contributed to this project. We are really grateful for your contribution. You all are amazing. Opensource for the win 🚀
